@@ -1,0 +1,23 @@
+.container{
+  display: block;
+}
+
+.header{
+  width: 100%;
+  height: 50%;
+  color: green;
+}
+
+.main{
+  width: 30%;
+  height: 20%;
+  color: grey;
+  float: left;
+}
+
+.sidebar{
+  width: 30%;
+  height: 20%;
+  color: purple;
+  float: left;
+}
