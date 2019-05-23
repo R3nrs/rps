@@ -1,0 +1,24 @@
+.container{
+  display: block;
+  margin: 0%;
+}
+
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+}
+
+.main{
+  width: 50%;
+  height: 400px;
+  background-color: lightslategrey;
+  float: left;
+}
+
+.sidebar{
+  width: 50%;
+  height: 400px;
+  background-color: lightgrey;
+  float: left;
+}
