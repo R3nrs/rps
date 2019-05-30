@@ -15,7 +15,7 @@
       </div>
         <div class="main">
           <center>
-          <p>👊</p>
+          <p id="demo">👊</p>
           </center>
         </div>
           <div class="sidebar">
@@ -31,9 +31,9 @@
       </div>
     </div>
 
-    <button class="rock button" type="button" style="border:none; background: none" onclick="play('rock')">👊</button>
-    <button class="paper button" type="button" style="border:none; background: none" onclick="play('paper')">✌️</button>
-    <button class="scissors button" type="button" style="border:none; background: none" onclick="play('scissors')">✋</button>
+    <button class="rock button" type="button" style="border:none; background: none" onclick="play1('rock')">👊</button>
+    <button class="paper button" type="button" style="border:none; background: none" onclick="play2('paper')">✌️</button>
+    <button class="scissors button" type="button" style="border:none; background: none" onclick="play3('scissors')">✋</button>
 
     <div class="scoreboard-placement">
       <div id="scoreboard">
@@ -42,6 +42,8 @@
         <p class="scoreboard-row" id="playerLosses"><strong>Your defeats: </strong><span id="losses">0</span></p>
       </div>
     </div>
+
+    <p id="reset-scores">Reset scores</p>
 
     <script src="script.js"></script>
   </body>

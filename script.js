@@ -117,3 +117,13 @@ $('.paper').click(function() {
     aiWin = 0;
     $('#losses').html(aiWin);
   });
+
+  function play1(){
+      document.getElementById("demo").innerHTML = "👊";
+  }
+  function play2(){
+    document.getElementById("demo").innerHTML = "✌️";
+  }
+  function play3(){
+    document.getElementById("demo").innerHTML = "✋";
+  }
