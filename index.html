@@ -25,8 +25,18 @@
           </div>
     </div>
 
-    <button class="butt" type="button" style="border:none; background: none" onclick="play('rock')">👊</button>
-    <button class="butt" type="button" style="border:none; background: none" onclick="play('rock')">✌️</button>
-    <button class="butt" type="button" style="border:none; background: none" onclick="play('rock')">✋</button>
+    <button class="rock button" type="button" style="border:none; background: none" onclick="play('rock')">👊</button>
+    <button class="paper button" type="button" style="border:none; background: none" onclick="play('rock')">✌️</button>
+    <button class="scissors button" type="button" style="border:none; background: none" onclick="play('rock')">✋</button>
+
+    <div class="scoreboard-placement">
+      <div id="scoreboard">
+        <p class="scoreboard-row" id="playerWins"><strong>Your Victories: </strong><span id="wins">0</span></p>
+        <p class="scoreboard-row" id="playerDraws"><strong>Total Draws:  </strong><span id="draws">0</span></p>
+        <p class="scoreboard-row" id="playerLosses"><strong>Your defeats: </strong><span id="losses">0</span></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
